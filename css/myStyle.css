@@ -1,0 +1,87 @@
+#headerImage{
+	width: 100%;
+}
+
+#menu{
+	background-color:gray;
+	width:15%;
+	height:500px;
+}
+
+#homepageLink{
+	padding-top:10%;
+	margin-left:25%;
+}
+
+#registrationLink{
+	margin-left:25%;
+}
+
+#content{
+	background-color:orange;
+	margin-left:15.5%;
+	margin-top:-500px;
+	height:500px;
+}
+#title{
+	font-size:50px;
+	color:purple;
+	margin-left:0.5em;
+}
+#description{
+	float: left;
+	padding-right:60%;
+	margin-left:1em;
+}
+#pirateContentPic{
+	float: right;
+	margin-top:-100px;
+	margin-right:50px;
+}
+#lowerContentPic{
+	margin-left:6em;
+}
+#cruisePic{
+	width:220px;
+	height:270px;
+}
+#footer{
+	background-color:red;
+	height:200px;
+}
+
+#linkTable{
+	margin-left:17%;
+	padding-top:2%;
+}
+
+th
+{
+    padding:10px 100px 10px 100px;
+}
+#homeButton, #regButton{
+	padding-left:7px;
+	height:70px;
+	width:150px;
+	margin-top:50px;
+	margin-left:10px;
+}
+
+#regButton{
+	margin-top:50px;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightgreen;
+    }
+    #repassworddiv, #lastnamediv{
+		margin-top:0px;
+		margin-left:0px;
+	}
+    
+}
+/* For mobile phones: */
+[class*="col-"] {
+   
+    margin-top:10px;
+}

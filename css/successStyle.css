@@ -1,0 +1,9 @@
+body{
+    background-color: khaki;
+}
+#message{
+    color: crimson;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
